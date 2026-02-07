@@ -31,11 +31,15 @@ btn.addEventListener("click", () => {
         message.innerText = "I knew it 😌❤️";
         btn.innerText = "click me again 😘";
     }
-    else  { 
+    else if (step === 6) { 
         title.innerText = "Happy valentime day!❤️";
         message.innerText = "you are my bestest friend as always 😌❤️";
         btn.innerText = "I love you 😘";
     }
+     else {
+    window.location.href = "second.html";
+}
+
 });
 
 function createHeart() {
