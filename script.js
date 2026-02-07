@@ -32,9 +32,9 @@ btn.addEventListener("click", () => {
         btn.innerText = "click me again 😘";
     }
     else  { 
-        title.innerText = "happy valentime day!❤️";
+        title.innerText = "Happy valentime day!❤️";
         message.innerText = "you are my bestest friend as always 😌❤️";
-        btn.innerText = " love you 😘";
+        btn.innerText = "I love you 😘";
     }
 });
 
